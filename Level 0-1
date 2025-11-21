@@ -1,0 +1,7 @@
+Mục tiêu : Mục tiêu của level này là tìm mật khẩu cho level tiếp theo (level 1) được lưu trong file readme nằm trong thư mục home.
+-Cách giải : 
++ mở terminal 
++ gõ lệnh ssh bandit0@bandit.labs.overthwire.org -p 2220 (kết nối vào tài khoản bandit0) 
++ sau đó thì gõ lệnh ls (để kiểm tra thư mục có file readme không) 
++ sau khi tìm thấy thì gõ cat readme (để xem file)
+-> mk tìm được : ZjLjTmM6FvvyRnrb2rfNWOZOTa6ip5If 
