@@ -1,3 +1,14 @@
 Mục tiêu : Tương tự tìm file - trong thư mục home
+
 Cách giải : 
 + ssh bandit1@bandit.labs.overthwire.org -p 2220 (kết nối đến tài khoản bandit1)
++ gõ lệnh ls ( kiểm tra thư mục có file - không)
++ nếu bạn gõ lệnh cat - để đọc file thì sẽ sai vì linux nghĩ rằng nó là đọc từ input thay vì 
+đọc file name "-" 
++ vì vậy bạn phải dùng cat ./- (vì  ./ là đường dẫn đến file tên là gì gì đó)
+-> mk tìm được : 263JGJPfgU6LtdEvgfWU1XP5yac29mFx
+
+Bài học: 
++ ./ là đường dẫn đến file 
+
+
