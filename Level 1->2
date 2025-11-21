@@ -1,0 +1,3 @@
+Mục tiêu : Tương tự tìm file - trong thư mục home
+Cách giải : 
++ ssh bandit1@bandit.labs.overthwire.org -p 2220 (kết nối đến tài khoản bandit1)
