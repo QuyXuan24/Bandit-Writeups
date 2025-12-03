@@ -1,0 +1,12 @@
+- Mục tiêu tìm file trong máy chủ có các thuộc tính sau : 
+thuộc sở hữu của người dùng bandit7
+thuộc sở hữu của nhóm bandit6
+Kích thước 33 byte
+
+-Cách giải : 
++ Sài lệnh     find / -user bandit7 -group bandit6 -size 33c 2>/dev/null
+-exec file {} + | grep "ASCII" 
+Lưu ý : 
++ 2>/dev/null : bỏ qua các thông báo lỗi 
+
+mk : morbNTDkSW6jIlUc0ymOdMaLnOlFVAaj
