@@ -1,0 +1,5 @@
+Mục tiêu tìm file có 1033 byte và ko có quyền thực thi 
+-Cách giải : 
++ sài lệnh  find . -type f -size 1033c ! -executable  
+*GHI CHÚ : -executable : có nghĩa là có quyền thực thi vì ko có quyền nên thêm ! 
+mk : HWasnPhtq9AVKe0dmk45nxy20cvUa6EG
