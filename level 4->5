@@ -1,1 +1,5 @@
-
+di chuyển tới thư mục inhere và kiểm tra thư mục ls -a 
+Sài lệnh   find . -type f -size 33c -exec file {} + | grep "AS
+CII"    để lọc file chứa kí tự mật khẩu 
+sau đó đọc file và lấy mk
+mk : 4oQYVPkxZOOEOO5pTW81FB8j8lxXGUQw
