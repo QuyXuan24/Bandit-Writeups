@@ -1,0 +1,8 @@
+Mục tiêu : tìm file có dòng văn bản duy nhất chỉ xuất hiện một lần 
+Cách giải : 
+Cách 1 :
++ sort data.txt > sorted.txt
++ uniq -u sorted.txt
+Cách 2 : Gộp lệnh
++ sort data.txt | uniq -u 
+mk : 4CKMh1JI91bUIZZPXDqGanal4xvAg0JM
