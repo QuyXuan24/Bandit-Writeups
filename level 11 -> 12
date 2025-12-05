@@ -1,0 +1,4 @@
+mục tiêu : tìm file có tất cả các chữ cái thường (az) và chữ cái hoa (AZ) đã được xoay 13 vị trí
++ Cách giải :
+sài lệnh   cat data.txt | tr 'n-za-mN-ZA-M' 'a-zA-z'   ý nghĩa đọc file sau đó xoay ngược lại 13 vị trí để có mk
+mk : 7x16WNeHIi5YkIhWsfFIqoognUTyj9Q4
