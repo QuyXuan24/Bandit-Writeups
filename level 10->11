@@ -1,0 +1,4 @@
+Mục tiêu : tìm file mã hóa bằng base64
++Cách giải
+Sài lệnh base64 -d data.txt ( giải ngược file đã mã hóa) 
+mk : dtR173fZKb0RRsDFSGsg2RWnpNVj3qRr
