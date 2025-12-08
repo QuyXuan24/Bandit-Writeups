@@ -1,0 +1,12 @@
+mục tiêu tìm một hexdump của một tệp đã được nén nhiều lần.
+Cách giải :
+Đây là phần chính của thử thách. Tệp data_recovered đã được nén nhiều lần bằng các công cụ khác nhau (gzip, bzip2, tar). 
+Bạn cần lặp lại quy trình sau:
+Kiểm tra loại tệp: Dùng lệnh file <tên_tệp>.
+Đổi tên (nếu cần): Các công cụ giải nén thường yêu cầu đuôi tệp đúng (ví dụ .gz cho gzip , bz2 cho bzip2
+, .tar cho tar).
+Giải nén: Dùng công cụ tương ứng.
+.gz (ví dụ: mv file file.gz) : lệnh gzip -d file.gz ( -d là giải nén , còn nếu ko có sẽ là nén vào)
+.bz2                         : lệnh bzip2 -d file.bz2
+.tar                         : lệnh tar -xf file.tar (-xf là lôi tệp trong file nén ra ngoài)
+mk : FO5dwFsc0cbaIiH0h8J2eUks2vdTDwAn
